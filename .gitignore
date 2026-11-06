@@ -1,0 +1,18 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# pytest / DeepEval artifacts
+.pytest_cache/
+.deepeval/
+.deepeval-cache.json
+test-results/
+*.xml
+report.html
+
+# Virtual environments
+.venv/
+venv/
+
+# Never commit secrets (this project uses a local model, so none are needed)
+.env
