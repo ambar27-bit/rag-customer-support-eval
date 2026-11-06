@@ -63,8 +63,7 @@ defects.
 3. **Weak handling of out-of-scope questions** (should say "I don't know").
 
 See [`TEST_FINDINGS.md`](TEST_FINDINGS.md) for the full defect report with root
-causes and recommended fixes, and [`STUDY_GUIDE.md`](STUDY_GUIDE.md) for the
-architecture and the OOP concepts used.
+causes and recommended fixes.
 
 > **Caveat:** the judge is a small local model, so scores are less reliable than a
 > hosted model and can vary between runs. Read the judge's stated reason, not just
@@ -109,7 +108,6 @@ rag-project/
 ├── config.py             # judge model (single place to swap it)
 ├── conftest.py           # pytest import path setup
 ├── requirements.txt
-├── STUDY_GUIDE.md        # architecture + OOP concepts
 └── TEST_FINDINGS.md      # defect report from the evaluation
 ```
 

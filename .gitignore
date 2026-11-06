@@ -16,3 +16,6 @@ venv/
 
 # Never commit secrets (this project uses a local model, so none are needed)
 .env
+
+# Personal study notes (kept locally, not part of the repo)
+STUDY_GUIDE.md
